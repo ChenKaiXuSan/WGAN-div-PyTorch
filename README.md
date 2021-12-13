@@ -1,4 +1,4 @@
-# WGAN-div-PyTorch-
+# WGAN-div-PyTorch
 Pytorch implementation of Wasserstein Divergence for GANs (WGAN-div)
 
 ## Overview
@@ -6,9 +6,8 @@ This repository contains an Pytorch implementation of WGAN-DIV.
 With full coments and my code style.
 
 ## About WGAN
-If you're new to WassersteinGAN, here's an abstract straight from the paper[1]:
+If you're new to Wasserstein Divergence for GANs (WGAN-div), here's an abstract straight from the paper[3]:
 
-We introduce a new algorithm named WGAN, an alternative to traditional GAN training. In this new model, we show that we can improve the stability of learning, get rid of problems like mode collapse, and provide meaningful learning curves useful for debugging and hyperparameter searches. Furthermore, we show that the corresponding optimization problem is sound, and provide extensive theoretical work highlighting the deep connections to other distances between distributions.
 
 ## Dataset 
 - MNIST
@@ -50,4 +49,3 @@ For the 10k epochs training on different dataset, compare with about 10000 sampl
 2. [WGAN-GP](https://arxiv.org/abs/1704.00028)
 3. [WGAN-DIV](https://arxiv.org/abs/1712.01026)
 4. [DCGAN](https://arxiv.org/abs/1511.06434)
-5. [CT-GAN](https://arxiv.org/abs/1803.01541)(todo)
