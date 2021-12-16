@@ -75,7 +75,8 @@ class Trainer_dcgan(object):
         '''
 
         # fixed input for debugging
-        fixed_z = tensor2var(torch.randn(self.batch_size, self.z_dim)) # （*, 100）
+        # for the 10x10 output image
+        fixed_z = tensor2var(torch.randn(100, self.z_dim)) # （*, 100）
 
         for epoch in range(self.epochs):
             # start time

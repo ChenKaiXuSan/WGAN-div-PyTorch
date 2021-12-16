@@ -48,7 +48,7 @@ def get_parameters():
     # Path
     parser.add_argument('--dataroot', type=str, default='../data', help='dataset path')
     parser.add_argument('--log_path', type=str, default='./logs', help='the output log path')
-    parser.add_argument('--model_save_path', type=str, default='./models', help='model save path')
+    parser.add_argument('--model_save_path', type=str, default='./checkpoint', help='model save path')
     parser.add_argument('--sample_path', type=str, default='./samples', help='the generated sample saved path')
 
     # Step size
