@@ -36,9 +36,9 @@ For the FID, I use the pytorch implement of this repository. [FID score for PyTo
 
 For the 10k epochs training on different dataset, compare with about 10000 samples, I get the FID: 
 
-| dataset | wgan-gp |
+| dataset | wgan-div |
 | ---- | ---- |
-| MNIST |  |
+| MNIST | 92.26381171314793 |
 | FASHION-MNIST | null | 
 | CIFAR10 | null |
  

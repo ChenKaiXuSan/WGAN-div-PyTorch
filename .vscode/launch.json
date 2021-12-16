@@ -15,14 +15,10 @@
                 "mnist",
                 "--channels",
                 "1",
-                "--sample_path",
-                "test_sample",
                 "--version",
                 "debug",
                 "--model",
                 "wgan-div",
-                "--adv_loss",
-                "wgan-div"
             ]
         },
     ]
