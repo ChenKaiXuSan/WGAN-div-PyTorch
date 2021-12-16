@@ -5,7 +5,7 @@ Pytorch implementation of Wasserstein Divergence for GANs (WGAN-div)
 This repository contains an Pytorch implementation of WGAN-DIV.
 With full coments and my code style.
 
-## About WGAN
+## About WGAN-div
 If you're new to Wasserstein Divergence for GANs (WGAN-div), here's an abstract straight from the paper[3]:
 
 
