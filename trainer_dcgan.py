@@ -34,7 +34,7 @@ class Trainer_dcgan(object):
         self.g_conv_dim = config.g_conv_dim
         self.d_conv_dim = config.d_conv_dim
 
-        self.epochs = config.epochs + 1
+        self.epochs = config.epochs
         self.batch_size = config.batch_size
         self.num_workers = config.num_workers 
 

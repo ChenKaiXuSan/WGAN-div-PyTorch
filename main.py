@@ -25,7 +25,7 @@ def get_parameters():
     parser.add_argument('--version', type=str, default='test', help='the version of the path, for implement')
 
     # Training setting
-    parser.add_argument('--epochs', type=int, default=10000, help='numer of epochs of training')
+    parser.add_argument('--epochs', type=int, default=10001, help='numer of epochs of training')
     parser.add_argument('--batch_size', type=int, default=64, help='batch size for the dataloader')
     parser.add_argument('--num_workers', type=int, default=2)
 
