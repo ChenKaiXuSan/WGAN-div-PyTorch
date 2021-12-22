@@ -38,7 +38,7 @@ For the 10k epochs training on different dataset, compare with about 10000 sampl
 
 | dataset | wgan-div |
 | ---- | ---- |
-| MNIST | 92.26381171314793 |
+| MNIST | 84.4945873660393(5900epoch) |
 | FASHION-MNIST | null | 
 | CIFAR10 | null |
  
