@@ -35,6 +35,13 @@
                 ],
                 "projectType": "general"
             }
+        },
+        {
+            "name": "Python: fid",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/FID/fid.py",
+            "console": "integratedTerminal"
         }
     ]
 }
