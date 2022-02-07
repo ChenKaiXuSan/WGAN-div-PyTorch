@@ -2,3 +2,4 @@
 pytorch-fid
 
 torchinfo
+pandas
